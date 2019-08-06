@@ -19,3 +19,11 @@ print(fname, lname, email)
 
 # Python Date and Time
 
+import datetime as dt
+import time as tm
+
+tm.time()
+
+dtnow = dt.datetime.fromtimestamp(tm.time())
+
+dtnow
